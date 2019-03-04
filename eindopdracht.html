@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eindopdracht</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <audio id="65" controls style="display:none">
+      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/crash.wav" type="audio/mpeg">
+    </audio>
+    <audio id="83" controls style="display:none">
+      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/ride.wav" type="audio/mpeg">
+    </audio>
+    <audio id="68" controls style="display:none">
+      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-low.wav" type="audio/mpeg">
+    </audio>
+    <audio id="70" controls style="display:none">
+      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-mid.wav" type="audio/mpeg">
+    </audio>   
+    <audio id="71" controls style="display:none">
+      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-high.wav" type="audio/mpeg">
+    </audio>
+    <audio id="72" controls style="display:none">
+      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav" type="audio/mpeg">
+    </audio>
+    <audio id="74" controls style="display:none">
+      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav" type="audio/mpeg">
+    </audio>
+    <audio id="75" controls style="display:none">
+      <source src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/hihat-open.wav" type="audio/mpeg">
+    </audio>
+
+    
+    
+    <!-- Ik geef hier verschillende div's aan die een geluid gaan afspelen ik geef hierbij een data key,
+    deze data key geeft aan wat de code is van de key waarop gedrukt moet worden nodig voor javascript -->
+    <div class="key crash" data-key="65">A</div>
+    <div class="key ride" data-key="83">S</div>
+    <div class="key floor_tom" data-key="68">D</div>
+    <div class="key mid_tom" data-key="70">F</div>
+    <div class="key high_tom" data-key="71">G</div>
+    <div class="key kick" data-key="72">H</div>
+    <div class="key snare" data-key="74">J</div>
+    <div class="key hi_hat" data-key="75">K</div>
+    <!-- Afbeelding van een drumstel -->
+    <img src="images/drumstel.png" alt="Drumkit">
+    <!-- Javascript gelinkt aan de html -->
+    <script src="js/eindopdracht.js"></script>
+</body>
+
+</html>

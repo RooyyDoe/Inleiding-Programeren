@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(#ffd89b , #19547b);
+  font-family: sans-serif;
+}
+
+/* Dit is de opmaak van de knoppen */
+.key {
+    display: inline-block;
+    background: linear-gradient(45deg, #141e30, #243b55);
+    position: absolute;
+    
+    font-size: 1.5em;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    border-radius: 4px;
+    border: 3px solid #79c;
+    color: white;
+}
+
+/* Hier worden de knoppen op de goede plek neergezet */
+.key.crash {
+    top: 120px;
+    right: 820px;
+}
+
+.key.ride {
+    top: 120px;
+    right: 580px;
+}
+
+.key.hi_hat {
+    top: 220px;
+    right: 460px;
+}
+
+.key.floor_tom {
+    top: 370px;
+    right: 880px;
+}
+
+.key.mid_tom {
+    top: 270px;
+    right: 800px;
+}
+
+.key.high_tom {
+    top: 270px;
+    right: 600px;
+}
+
+.key.kick {
+    top: 430px;
+    right: 710px;
+}
+
+.key.snare {
+    top: 370px;
+    right: 560px;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #4CB8CD;
+  box-shadow: 0 0 1rem #3CD3AD;
+}
+
+img {
+    display: block;
+    margin: 100px auto;
+}
